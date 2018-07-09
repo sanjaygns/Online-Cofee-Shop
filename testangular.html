@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+ 
+<div ng-app="myApp" ng-init="img_path='/kupsip/image/'" ng-controller="customersCtrl">
+  <div class="w3-row w3-margin" >
+    <div class="w3-col s6 m6 l4 w3-center" ng-repeat="x in names">
+    
+      <div class="w3-col l2 w3-center"><p></p></div>
+      <div class="w3-col l8 w3-center w3-margin w3-center w3-card-2">
+        <div><img width="150px;" ng-src='{{ img_path + "" + x.Image }}' /></div>
+        <div>{{x.Id}}</div>
+        <div><a ng-href="product_info.php?prod={{x.Id}}">{{ x.Name }}</a></div>
+        <div>{{ x.Price }}</div>
+        <div class="w3-row" >
+          <div class="w3-col s5 m5 l5 w3-center w3-margin"><button onclick="window.location.href='#'" class="w3-btn-block w3-teal w3-medium">Add Cart</button></div>
+          <div class="w3-col s5 m5 l5 w3-center w3-margin"><button onclick="window.location.href='#'" class="w3-btn-block w3-teal w3-medium">Buy NOW</button></div>
+        </div>
+      </div>
+      <div class="w3-col l1 w3-center"><p></p></div>
+     
+    </div>
+  </div>
+</div>
+ 
+<script>
+var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+   $http.get("http://localhost/kupsip/testangular.php")
+   .then(function (response) {$scope.names = response.data.records;});
+});
+</script>
+ <!-- product_info.php?prod={{}} -->
+</body>
+</html>

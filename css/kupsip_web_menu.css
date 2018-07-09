@@ -1,0 +1,530 @@
+#content {
+	padding-bottom:25px; /* Height of the footer element */
+}
+
+
+@-webkit-keyframes fadeIn {
+    /*from { opacity: 0; }
+      to { opacity: 1; }*/
+      from { height: 0px; }
+      to { height: 125px; }
+}
+
+@keyframes fadeIn {
+  /*  from { opacity: 0; }
+      to { opacity: 1; }*/
+      from { height: 0px; }
+      to { height: 125px; }
+}
+
+@-webkit-keyframes fadeIn_l {
+    /*from { opacity: 0; }
+      to { opacity: 1; }*/
+      from { height: 0px; }
+      to { height: 100px; }
+}
+
+@keyframes fadeIn_l {
+  /*  from { opacity: 0; }
+      to { opacity: 1; }*/
+      from { height: 0px; }
+      to { height: 100px; }
+}
+
+.ani{
+	-webkit-animation: fadeIn 0.2s;
+    animation: fadeIn 0.2s;
+}
+.ani_l{
+	-webkit-animation: fadeIn_l 0.2s;
+    animation: fadeIn_l 0.2s;
+}
+
+.w3-dropdown-content {
+    cursor: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: relative;
+    left : 110px;
+    min-width: 250px;
+    margin: 0px;
+    padding: 0px;
+}
+div.responsive_bg{
+		position: fixed;
+		width: 100%;
+		height: 79px;
+		background-color:transparent!important;
+	}
+	div.vertical-line{
+  			width: 1px; 
+			background-color: #828181; 
+			height: 100px !important; 
+			position: relative;
+			left: 120px;
+			top: -10px;
+		}		
+		div.row{	
+			width: 100%;
+			height: 79px;
+			max-width:1200px;
+			margin:auto;
+			padding-left:10px;
+			padding-right:10px;
+			
+		}
+		div.sub_menus{
+			position: relative;
+			width: 100%;
+			top: 10px;
+			height: 125px;
+			z-index: 1000px;
+			background-color: rgba(255, 0, 0, 0);
+		}
+		span.sub_shop{
+			display: none;
+			position: absolute;
+			left: 0px;
+			/*height: 125px;*/
+			width: 100%;
+			background-color:white;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		span.sub_shop_brewing{
+			position: relative;
+			left: 50px;
+		}
+		span.sub_business{
+			display: none;
+			position: absolute;
+			left: 450px;
+			/*height: 125px;*/
+			width: 135px;
+			background-color:white;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+		span.sub_club{
+			display: none;
+			position: absolute;
+			left: 610px;
+			/*height: 125px;*/
+			width: 125px;
+			background-color:white;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+		div.m_bg1{
+	position: relative;
+	left: 75%;
+	width: 300px;
+	height: 35px;
+	padding: 15px;
+	top: 13px;
+		}
+		div.currency{
+
+    		margin-right: 25px;
+    		background-color: black;
+    		cursor: pointer;
+
+    	}
+    	button.btnl1{
+    		height: 32px!important;
+    		width: 90px;
+    		background-color: black;
+    		margin-left: 2px;
+			left: 60%;
+    	}
+    	button.btnl2{
+    		height: 30px!important;
+    		width: 90px;
+    		background-color: black;
+    		margin-left: 2px;
+
+    	}
+    	div.login{
+    		position: absolute;
+    		left: 78%;
+    		top:10px;
+    		font-size: 11PX;
+    	}
+
+    	a.log_btn{
+			margin-top: 5px;
+			background-color: black; 
+			padding: 1px 6px 1px 5px; 
+			border-width: 1px; 
+			border-style: solid;
+			color: white;
+			cursor: pointer;
+		}
+		a.log_btn:hover{
+				color: black;
+				background-color: white;
+				text-decoration: none;
+			}
+		div.logo_div{
+			position: absolute;
+			top: 10px;
+		}
+    	img.logo{
+			position: absolute;
+			width: 100px;
+			top: -17px;
+			left: 15px;
+		}
+		div.m_bg2{
+	color: white;
+	position: relative;
+	top: 10px;
+	left: 150px;
+	width: 750px;
+	font-size: 16px;
+		}
+		a.m_button{
+			padding: 3px;
+			padding-bottom: 0px;
+			margin-right: 25px;	
+			line-height: 1.7em;
+			font-weight: 500;
+			font-size: 20px;
+					
+		}
+		a.m_button:hover{
+			border-radius: 0px;
+			border-bottom: 4px solid #009688!important;
+			color: white;
+			text-decoration: none;
+		}
+		div.m_button_c{
+	position: absolute;
+	color: white;
+	left: 90%;
+	height: 42px;
+	width: 42px;
+	border-radius: 42px;
+	border-color: #ffffff;
+	border-width: 2px;
+	border-style: solid;
+	background-color: black;
+	top: 20px;
+		}
+		span.cart{
+			top: 9px;
+			font-size: 20px;
+		}
+		div.search_div{
+			position: relative;
+			background-color: white;
+			width: 250px;
+			border-radius: 4px;
+			left: 550px;
+			top: -90px;
+			height: 35px;
+		}
+		input.search{
+			position: absolute;
+			height: 35px;
+			width: 210px;
+			border:1px solid white;
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+			outline: none;
+		}
+		a.search_icon_div{
+			position: relative;
+			left: 210px;
+			width: 40px;
+			height: 35px;
+			font-size: 20px;
+			padding: 5px 5px 5px 5px;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}	
+		/*.w3-white, .w3-hover-white:hover {
+		    color: white!important;
+		    background-color: black!important;
+		    border-color: white!important;
+		    text-decoration: none;
+		}*/
+.social {
+  width: 20px;
+  height: 39px;
+  position: fixed;
+  margin-top: 10px;
+  perspective: 100px;
+    left:93%;
+	top:20%;
+}
+
+.social li a {
+  
+  display: block;
+  height: 40px;
+  width: 40px;
+  background:#259B8D;
+  border-bottom: 1px solid white;
+	border-top: 1px solid white;
+  font: normal normal normal
+  16px/20px 
+  'FontAwesome', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: background .5s ease .300ms
+}
+
+.social li:first-child a:hover { background: #3b5998 }
+.social li:nth-child(2) a:hover { background: #00acee }
+.social li:nth-child(3) a:hover { background: #ea4c89 }
+.social li:nth-child(4) a:hover { background: #dd4b39 }
+
+.social li:first-child a { border-radius: 5px 0 0 0 }
+.social li:last-child a { border-radius: 0 0 0 5px }
+    
+.social li a span {
+  width: 100px;
+  float: right;
+  text-align: center;
+  background: #222;
+  color: #fff;
+ margin: -25px 74px;
+  padding: 8px;
+  transform-origin: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: rotateY(45deg);
+  border-radius: 5px;
+  transition: all .5s ease .300ms
+}
+
+.social li span:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -20px;
+  top: 7px;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #222;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
+
+.social li a:hover span {
+  visibility: visible;
+  opacity: 1;
+  transform: rotateY(0)
+}
+
+
+		@media screen and (max-width: 500px) {
+
+			div.responsive_bg{
+				position: absolute;
+				width: 100%;
+				height: 100px;
+				background-color: black;
+				z-index: -10;
+			}
+
+			div.row{	
+				width: 100%;
+				height: 100px;
+				max-width:100%;
+				/*margin:auto;
+				padding-left:10px;
+				padding-right:10px;*/
+				background-color: black;
+				z-index: 999;
+			}
+
+			div.m_bg1{
+				position: relative;
+				left: 23%;
+				width: 100%!important;
+				height: 50px;
+				margin-top: -5px!important;
+				
+			}
+			div.logo_div{
+				position: absolute;
+				top: 35px;
+			}
+	    	img.logo{
+				position: absolute;
+				width: 80px;
+				top: -35px;
+				left: -0px;
+			}
+			select.currency{
+	    		/*margin-top:5px;*/
+	    		background-color: grey;
+	    		cursor: pointer;
+	    		height: 20px;
+	    	}
+	    	option.curen{
+	    		margin-top: 10px;
+	    	}
+	    	button.btnl1{
+	    		height: 25px!important;
+	    		width: 65px!important;
+	    		background-color: black;
+	    		font-size: 12px;
+	    		margin-left: 25px;
+	    		margin-top: 5px;
+	    	}
+	    	button.btnl2{
+	    		height: 21px!important;
+	    		width: 65px!important;
+	    		background-color: black;
+	    		font-size: 12px;
+	    		margin-left: 0px;
+	    		margin-top: 5px;
+	    		
+	    	}
+	    	a.log_btn{
+				margin-top: 5px;
+				background-color: black; 
+				padding: 1px 6px 1px 5px; 
+				border-width: 1px; 
+				border-style: solid;
+				color: white;
+				cursor: pointer;
+			}
+			a.log_btn:hover{
+					color: black;
+					background-color: white;
+					text-decoration: none;
+				}
+			div.m_bg2{
+				color: white;
+				position: relative;
+				top: 30px;
+				left: 2px;
+				width: 100%;
+				font-size:11px;
+			}
+			a.m_button{
+				padding-bottom: 5px;
+				margin-right: 2px;
+				text-decoration: none;
+				font-size: 10px;
+						
+			}
+			a.m_button:hover{
+				border-radius: 5px;
+				border-bottom: 4px solid #009688!important;
+				color: white;
+				text-decoration: none;
+			}
+			div.m_button_c{
+				position: relative;
+				color: white;
+				top: -55px;
+				left: 90%;
+				height: 42px;
+				width: 42px;
+				border-radius: 42px;
+				border-color: #ffffff;
+				border-width: 2px;
+				border-style: solid;
+				background-color: black;
+			}
+			span.cart{
+				top: 9px;
+				font-size: 20px;
+			}
+			div.search_div{
+				position: relative;
+				background-color: white;
+				width: 305px;
+				border-radius: 4px;
+				left: 2px;
+				top: 0px;
+				height: 35px;
+			}
+			input.search{
+				position: absolute;
+				height: 35px;
+				width: 305px;
+				border:1px solid white;
+				border-top-left-radius: 3px;
+				border-bottom-left-radius: 3px;
+				outline: none;
+			}
+			a.search_icon_div{
+				position: relative;
+				left: 305px;
+				width: 40px;
+				height: 35px;
+				font-size: 20px;
+				padding: 5px 5px 5px 5px;
+				border-top-right-radius: 3px;
+				border-bottom-right-radius: 3px;
+			}
+			img.cof{
+			    width: 100%;
+			    height: auto;
+			}
+			div.vertical-line{
+	  			width: 1px; 
+				background-color: #828181; 
+				height: 100px !important; 
+				position: relative;
+				left: 92px;
+				top: -10px;
+				display: inherit;
+			}		
+			
+			div.sub_menus{
+				position: relative;
+				top: 4px;
+
+				height: 125px;
+				z-index: 1001;
+				background-color: rgba(255, 0, 0, 0);
+			}
+			span.sub_shop{
+				display: none;
+				position: relative;
+				left: 100px;
+				/*height: 125px;*/
+				width: 200px;
+				background-color:white;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			span.sub_shop_brewing{
+				position: relative;
+				left: 26px;
+			}
+			span.sub_business{
+				display: none;
+				position: relative;
+				left: 203px;
+				/*height: 125px;*/
+				width: 110px;
+				background-color:white;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			span.sub_club{
+				display: none;
+				position: relative;
+				left: 295px;
+				/*height: 125px;*/
+				width: 100px;
+				background-color:white;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+
+		}
+	    

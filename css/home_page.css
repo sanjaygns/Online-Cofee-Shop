@@ -1,0 +1,397 @@
+/*for page as menu*/
+.anc:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.carousel-control{
+	background-image:linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%)!important;
+}
+div.row_home{	
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	max-width:100%;
+	margin:auto;
+	z-index: -5
+			}
+/*footer*/
+#footer {
+	width:100%;
+	height:100px;
+	position:relative;
+	bottom:0;
+	left:0;
+}
+.thumbnail{
+	padding: 0px!important;
+	background: transparent;
+	margin-bottom: 5px!important;
+}
+.carousel-control{
+	width: 5%!important;
+}
+/*font*/
+@font-face {
+    font-family: 'OmbudsmanStencil';
+    src: url(../font/OmbudsmanStencil.ttf);
+	}
+/*main_slider*/
+.w3-left, .w3-right{
+        	position: relative;
+        	top: 10%!important;
+        }
+        .mySlides {display:none}
+		.w3-left, .w3-right, .w3-badge {cursor:pointer}
+		.w3-badge {
+			height:10px;
+			width:10px!important;
+			position: relative;
+			left: 40%;
+			top: 50%!important;
+			background-color: white!important;
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+		div.dot{
+			position: absolute;
+			padding-top: 230px;
+			right: 110px;
+		}
+        div.slider_main{
+        	max-width:100%;
+        }
+        img.mySlides{
+        	width:100%;
+        	height: auto;
+        }
+        div.trans{
+        	position: absolute;
+        	top: 150px;
+        	left: 220px!important;
+        	border-color: transparent;
+        }
+        div.tra_txt{
+        	margin-top: -85px;
+        	margin-left: 30px;
+        	font-size: 16px;
+        	font-family:'Franklin';
+        }
+        div.txt{
+        	font-family:'Franklin';
+        	margin-top: 40px;
+        	margin-left: -2px!important;	
+        }
+        button.btn_m{
+        	font-family:'Franklin';
+        	margin-left: 105px;
+        	border-radius: 0px;
+        }
+        /*search*/
+        #plus{
+
+			top: 150px;
+			right: 140px!important;
+			width: 27%;
+			position: absolute;
+			background-color: transparent!important;
+			
+		}
+		#gly_search{
+		 	top: 150px;
+		 	right: 140px!important;
+		 	height: 40px;
+		 	position: absolute;
+		 	font-size: 24px;
+		}
+
+/* end */
+/*row1*/
+		div.dis_img_all_cof_main{
+				background-color: black!important;
+				color: white!important;
+			}
+			div.img_all_cof{
+				background-color: black!important;
+				color: white!important;
+			}
+		div.row11{
+			height: 210px;
+		}
+		div.dslider_hider{
+			display: block;
+		}
+		div.mslider_hider{
+			display: none;
+		}
+		/*div.dis_img_all_cof_main{
+			background-color: black;
+			color: red!important;
+		}
+		div.img_all_cof{
+			background-color: black;
+		}*/
+        div.row1{
+			position: relative;
+			background-color: white;
+			height: 200px;
+			margin-top: -30px;
+
+		}
+		div.row12{
+			height: 170px;
+			background-color: black;
+			color: white;
+		}
+		div.disp2{
+			display: none;
+		}
+/*about us*/
+/*row2*/
+
+/*row3*/
+		div.row31{
+			height: 338px;
+		}
+		div.row32{
+			padding: 55px;
+		}
+		#bg101{
+			height: 338px;
+			background: url(../image/coffee-guru.jpeg);
+		    background-size: cover;
+		    background-position: center center;
+		}
+
+/*row4*/
+		div.row41{
+			height: 338px;
+		}
+		div.row42{
+			padding: 55px;
+		}
+		#bg102{
+			height: 338px;
+			background: url(../image/roster_image.jpg);
+		    background-size: cover;
+		    background-position: center center;
+		}
+/*row4m*/
+		div.row4m{
+			display: none;
+		}
+		#bg103{
+			height: 338px;
+			background: url(../image/cofe.jpg);
+		    background-size: cover;
+		    background-position: center center;
+		}
+/*row5*/
+
+
+				
+
+        #tagline1{
+        	font-family:'OmbudsmanStencil'!important;
+        	font-size: 38px;
+        }
+
+		div#font{
+			line-height: 27px;
+		}
+		div.row61{
+			padding: 20px;
+			height: 188px!important;
+		}
+		
+		div.row62{
+			height: 188px;
+			padding: 20px; 
+			background-color: #00e6e6;
+		}
+	
+		
+		span.fnt{
+			font-size: 68px;
+			font-family: 'OmbudsmanStencil';
+		}
+		div.ft{
+			font-family: 'OmbudsmanStencil';
+		}
+		div.car{
+			display: block!important;
+			z-index: -1!important;
+		}
+		/*client_slider*/
+		div.c_inner{
+			/*padding-left: 15%;*/ 
+		}
+		span.arrow{
+			position: relative;
+			font-size: 100px!important;
+			top: 32%;
+		}
+		div.inline { 
+			    display: inline-block;  
+			    width: 120px;
+			    margin: 20px;
+			    margin-left: 50px;
+			    }
+
+
+		 @media screen and (max-width: 500px){
+		 	div.row_home{
+		 		max-width: 500px!important;
+		 		background-color: white; 
+    			position: absolute;
+				width: 100%!important;
+				top: 97px;
+
+				margin:auto;
+		 	}
+		 	div.row12{
+		 		max-width: 100%;
+				height: auto;
+				background-color: white;
+				color: black;
+			}
+		 	div.row4{
+		 		display: none;
+		 	}
+		 	div.row4m{
+		 		display: block;
+		 	}
+			div.inline { 
+			    display: inline-block;  
+			    width: 75px;
+			    margin: 2px;
+		    }
+		    ol.carousel-indicators{
+		    	bottom:0px;
+		    }
+			span.arrow{
+				position: relative;
+				font-size: 40px!important;
+				top: 10%;
+			}
+	    	div.slider{
+	    		width:100%;
+	    		height: 435px;
+	    	}
+	    	img.mySlides{
+	        	width:100%;
+	        	height: auto;
+	        }
+	        div.trans{
+	        	
+	        	left: 0px!important;
+	        	position: absolute;
+	        	top: 200px;
+	        	z-index: 999;
+	        	background-color: black;
+	        	height: 230px;
+	        }
+	        img.tra{
+	        	position: absolute;
+	        	top: 20px;
+	        	left: 80px;
+	        	height: 80;
+	        	width: 200px;
+	        	z-index: -10;
+	        }
+
+			div.row62{
+				height: 202px;
+				width: 100%;
+			}
+	        div.tra_txt{
+	        	margin-top: 24px;
+	        	margin-left: 110px;	
+	        	font-size: 2px;
+	        }
+	        div.txt{
+	        	font-family:'Franklin';
+	        	margin-top: 30px;
+	        	margin-left: 2px;	
+	        }
+	        button.btn_m{
+	        	font-family:'Franklin';
+	        	margin-left: 185px!important;
+	        	border-radius: 0px;
+	        }
+	        div.disp1{
+	        	display: block;
+	        }
+	        div.disp2{
+	        	display: none;
+	        }
+		    #img_all_cof{
+		    	height: 380px;
+		    }
+	        #tagline{
+	        	font-family:'OmbudsmanStencil'!important;
+
+	        }
+	        #tagline1{
+	        	font-family:'OmbudsmanStencil'!important;
+	        	font-size: 24px;
+	        }
+	        div.row42m{
+	        	padding: 55px;
+	        }
+	        /*client_slider*/
+			div.c_inner{
+				margin-left: 10px 
+			}
+			div.carousel-indicators {
+				right: 50%;
+				
+				bottom: 0px;
+				margin-right: -19px;
+			}
+			div.padding_bar{
+				display: none;
+			}
+			div.img_all_cof{
+				border-color: grey;
+				border-width: 2px;
+			}
+			/*search*/
+			#plus{
+				display: block!important;
+				top: 93px!important;
+				right: 50px!important;
+				width: 75%!important;
+				position: absolute;
+				background-color: transparent!important;
+				
+			}
+			#gly_search{
+			 	top: 110px!important;
+			 	right: 51px!important;
+			 	height: 40px;
+			 	position: absolute;
+			 	font-size: 24px;
+			}
+			div.dis_img_all_cof_main{
+				background-color: white!important;
+				color: white!important;
+			}
+			div.img_all_cof{
+				background-color: white!important;
+			}
+			div.row11{
+			height: 250px!important;
+			background-color: white;
+		}
+		div.dslider_hider{
+			display: none;
+		}
+		div.mslider_hider{
+			display: block;
+		}
+			 
+	     span.fnt{
+			font-size: 48px;
+			font-family: 'OmbudsmanStencil';
+		}   
+	    }
